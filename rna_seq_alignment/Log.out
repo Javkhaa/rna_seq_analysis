@@ -28,7 +28,7 @@ sjdbOverhang                      150
 ----------------------------------------
 
 Finished loading and checking parameters
-Mar 09 15:17:28 ... starting to generate Genome files
+Mar 09 17:13:05 ... starting to generate Genome files
 ./S288C_reference/S288C_reference_sequence_chr_renamed.fsa : chr # 0  "chrI" chrStart: 0
 ./S288C_reference/S288C_reference_sequence_chr_renamed.fsa : chr # 1  "chrII" chrStart: 262144
 ./S288C_reference/S288C_reference_sequence_chr_renamed.fsa : chr # 2  "chrIII" chrStart: 1310720
@@ -49,42 +49,42 @@ Mar 09 15:17:28 ... starting to generate Genome files
 Estimated genome size=315680064   14680064   301000000
 GstrandBit=32
 Number of SA indices: 24314210
-Mar 09 15:17:28 ... starting to sort Suffix Array. This may take a long time...
+Mar 09 17:13:05 ... starting to sort Suffix Array. This may take a long time...
 Number of chunks: 4;   chunks size limit: 64837888 bytes
-Mar 09 15:17:28 ... sorting Suffix Array chunks and saving them to disk...
-Writing 2865728 bytes into S288_STAR_index/SA_3 ; empty space on disk = 89202929696768 bytes ... done
-Writing 62236096 bytes into S288_STAR_index/SA_2 ; empty space on disk = 89207104077824 bytes ... done
-Writing 64641136 bytes into S288_STAR_index/SA_0 ; empty space on disk = 89191170965504 bytes ... done
-Writing 64770720 bytes into S288_STAR_index/SA_1 ; empty space on disk = 89174622339072 bytes ... done
-Mar 09 15:17:34 ... loading chunks from disk, packing SA...
-Mar 09 15:17:34 ... finished generating suffix array
-Mar 09 15:17:34 ... generating Suffix Array index
-Mar 09 15:17:35 ... completed Suffix Array index
-Mar 09 15:17:35 ..... processing annotations GTF
+Mar 09 17:13:05 ... sorting Suffix Array chunks and saving them to disk...
+Writing 2865728 bytes into S288_STAR_index/SA_3 ; empty space on disk = 89459844448256 bytes ... done
+Writing 62236096 bytes into S288_STAR_index/SA_2 ; empty space on disk = 89459103105024 bytes ... done
+Writing 64641136 bytes into S288_STAR_index/SA_0 ; empty space on disk = 89443169992704 bytes ... done
+Writing 64770720 bytes into S288_STAR_index/SA_1 ; empty space on disk = 89426587811840 bytes ... done
+Mar 09 17:13:09 ... loading chunks from disk, packing SA...
+Mar 09 17:13:10 ... finished generating suffix array
+Mar 09 17:13:10 ... generating Suffix Array index
+Mar 09 17:13:10 ... completed Suffix Array index
+Mar 09 17:13:10 ..... processing annotations GTF
 Processing pGe.sjdbGTFfile=./Saccharomyces_cerevisiae.R64-1-1.99.gtf, found:
 		7127 transcripts
 		7507 exons (non-collapsed)
 		364 collapsed junctions
-Mar 09 15:17:35 ..... finished GTF processing
-Mar 09 15:17:35   Loaded database junctions from the GTF file: ./Saccharomyces_cerevisiae.R64-1-1.99.gtf: 364 total junctions
+Mar 09 17:13:10 ..... finished GTF processing
+Mar 09 17:13:10   Loaded database junctions from the GTF file: ./Saccharomyces_cerevisiae.R64-1-1.99.gtf: 364 total junctions
 
-Mar 09 15:17:35   Finished preparing junctions
-Mar 09 15:17:35 ..... inserting junctions into the genome indices
-Mar 09 15:17:35   Finished SA search: number of new junctions=364, old junctions=0
-Mar 09 15:17:35   Finished sorting SA indicesL nInd=218400
+Mar 09 17:13:10   Finished preparing junctions
+Mar 09 17:13:10 ..... inserting junctions into the genome indices
+Mar 09 17:13:11   Finished SA search: number of new junctions=364, old junctions=0
+Mar 09 17:13:11   Finished sorting SA indicesL nInd=218400
 Genome size with junctions=14789628  14680064   109564
 GstrandBit1=32   GstrandBit=32
-Mar 09 15:17:36   Finished inserting junction indices
-Mar 09 15:17:36   Finished SAi
-Mar 09 15:17:36 ..... finished inserting junctions into genome
-Mar 09 15:17:36 ... writing Genome to disk ...
-Writing 14789628 bytes into S288_STAR_index/Genome ; empty space on disk = 89209984516096 bytes ... done
+Mar 09 17:13:11   Finished inserting junction indices
+Mar 09 17:13:11   Finished SAi
+Mar 09 17:13:11 ..... finished inserting junctions into genome
+Mar 09 17:13:11 ... writing Genome to disk ...
+Writing 14789628 bytes into S288_STAR_index/Genome ; empty space on disk = 89459572867072 bytes ... done
 SA size in bytes: 101197020
-Mar 09 15:17:36 ... writing Suffix Array to disk ...
-Writing 101197020 bytes into S288_STAR_index/SA ; empty space on disk = 89232105275392 bytes ... done
-Mar 09 15:17:36 ... writing SAindex to disk
-Writing 8 bytes into S288_STAR_index/SAindex ; empty space on disk = 89207698620416 bytes ... done
-Writing 88 bytes into S288_STAR_index/SAindex ; empty space on disk = 89207698620416 bytes ... done
-Writing 6116691 bytes into S288_STAR_index/SAindex ; empty space on disk = 89207698620416 bytes ... done
-Mar 09 15:17:36 ..... finished successfully
+Mar 09 17:13:11 ... writing Suffix Array to disk ...
+Writing 101197020 bytes into S288_STAR_index/SA ; empty space on disk = 89455786459136 bytes ... done
+Mar 09 17:13:11 ... writing SAindex to disk
+Writing 8 bytes into S288_STAR_index/SAindex ; empty space on disk = 89429879291904 bytes ... done
+Writing 88 bytes into S288_STAR_index/SAindex ; empty space on disk = 89429879291904 bytes ... done
+Writing 6116691 bytes into S288_STAR_index/SAindex ; empty space on disk = 89429879291904 bytes ... done
+Mar 09 17:13:11 ..... finished successfully
 DONE: Genome generation, EXITING
